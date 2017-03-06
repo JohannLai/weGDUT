@@ -4,7 +4,7 @@
 
 some picture about this app.
 #### index
-<img src="http://o6m29g00l.bkt.clouddn.com/207834850.jpg" >
+<img src="http://o6m29g00l.bkt.clouddn.com/207834850.jpg" style="width:70px;" >
 
 #### Curriculum schedule
 <img src = "http://o6m29g00l.bkt.clouddn.com/1964248556.jpg" >
@@ -15,6 +15,10 @@ some picture about this app.
 #### score 
 <img src="http://o6m29g00l.bkt.clouddn.com/311099744.jpg" >
 
+#### issues
+<img src="http://o6m29g00l.bkt.clouddn.com/1461738419.jpg" >
+
+#### Library
 
 
 ## Build Setup
