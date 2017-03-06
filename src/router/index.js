@@ -23,14 +23,17 @@ export default new Router({
     },
     {
       path:'/check',
+      name:'check',
       component:Check
     },
     {
       path:'/table',
+      name:'table',
       component:Table
     },
     {
       path:'/library',
+      name:'library',
       component:Library
     },
     {
@@ -40,6 +43,7 @@ export default new Router({
     },
     {
       path:'/news',
+      name:'news',
       component:News
     },
     {

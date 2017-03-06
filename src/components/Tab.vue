@@ -52,13 +52,13 @@
               console.log(name)
                switch(name){
                  case 'table':
-                    
+                  this.$router.push({ name: 'table'})
                   break;
                 case 'search':
-                  
+                  this.$router.push({ name: 'check'})
                   break;
                 case 'me':
-                  
+                  this.$router.push({ name: 'me'})
                   break;
                }
             },
@@ -69,9 +69,9 @@
 
       }
 
-</script scoped>
+</script >
 
-<style>
+<style scoped>
 * {
   box-sizing: border-box;
 }
@@ -91,7 +91,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   border-top: 0.01rem solid #ccc;
-  
+  z-index: 999;
 }
 
 .navLink {
@@ -122,7 +122,7 @@ a {
   display: block;
   margin: 0.05rem 0;
   height: 2rem;
-  width: .57rem;
+  width: .55rem;
   background-size:1.1rem;
 }
 
@@ -135,11 +135,11 @@ a {
     background: url(../assets/sprite.png) -0px -90px no-repeat;   
 }
 .search{  
-  background: url(../assets/sprite.png) -53px -0px no-repeat;
+  background: url(../assets/sprite.png) -50px -0px no-repeat;
 }
 
 .search-active{  
-  background: url(../assets/sprite.png) 4px -0px no-repeat;
+  background: url(../assets/sprite.png) 3px -0px no-repeat;
 }
 
 

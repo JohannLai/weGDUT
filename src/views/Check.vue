@@ -1,22 +1,22 @@
 <template>
  <div class="check">
-    <div class="score">
-        <li class="score-icon icon"></li>
+    <div class="score" v-on:click="route('score')">
+        <li class="score-icon icon" ></li>
         <span>成绩查询</span>
         <span >></span>
     </div>
-    <div class="score">
-        <li class="exam-icon icon"></li>
+    <div class="score" v-on:click="route('time')">
+        <li class="exam-icon icon" ></li>
         <span>考试时间</span>
         <span >></span>
     </div>
-    <div class="score">
+    <div class="score" v-on:click="route('library')">
         <li class="lib-icon icon"></li>
         <span>图书查询</span>
         <span >></span>
     </div>
 
-    <div class="score">
+    <div class="score" v-on:click="route('news')">
         <li class="lib-icon icon"></li>
         <span>校内通知</span>
         <span >></span>
@@ -38,6 +38,25 @@
         components: {
             tab
         },
+        methods:{
+            route (name) {
+              console.log(name)
+               switch(name){
+                 case 'score':
+                  this.$router.push({ name: 'score'})
+                  break;
+                 case 'time':
+                  this.$router.push({ name: 'time'})
+                  break;
+                case 'library':
+                  this.$router.push({ name: 'library'})
+                  break;
+                case 'news':
+                  this.$router.push({ name: 'news'})
+                  break;
+               }
+            },
+        }
     }
 </script>
 <style scoped>

@@ -17,20 +17,23 @@
         <span>关于</span>
         <span >></span>
     </div>
-
+ <tab message="me-active" ></tab>
 </template>
 
 <script>
     import axios from 'axios'  
-import VueRouter from 'vue-router'
-  
+    import VueRouter from 'vue-router'
+    import tab from '../components/Tab'
 export default {     components: {      },
     data () {
       return {
        
-      }     },
+      }     
+    },
+   components: {
+            tab
+   },
     
-
 }
 
 </script>
