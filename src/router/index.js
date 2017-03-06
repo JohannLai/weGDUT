@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Goal from 'components/Goal'
-import Home from 'components/Home'
-
 import Login from 'views/Login'
 import Check from 'views/Check'
 import Library from 'views/Library'
@@ -60,9 +57,6 @@ export default new Router({
       name:'score',
       component:Score
     },
-    {
-      path:'/home',
-      component:Home
-    }
+
     ]
 })
